@@ -3,6 +3,11 @@
 Reads a lab result the way a lab printed it, and gives you back a LOINC code and
 a value in one consistent unit.
 
+Built for [Longitude](https://longitude.montandpaix.com/preview), where it is
+what lets one chart hold results from four different laboratories. That link is
+a live demo with a few years of made up results in it. Nothing to sign up for
+and nothing to install.
+
 ```ts
 import { normalizeObservation } from "longitude-loinc-normalize";
 
@@ -52,10 +57,9 @@ be put on the same chart, even though they measure the same thing.
 This library does the boring part of fixing that: work out which test was
 printed, and convert the number onto one scale.
 
-It was pulled out of [Longitude](https://longitude.montandpaix.com/preview), a
-small app for keeping a family's lab reports in one place. That link goes
-straight to a working demo with a few years of made up results in it, no sign up
-and nothing to install.
+It was pulled out of Longitude, a small app for keeping a family's lab reports
+in one place, built because nobody in mine could answer a simple question like
+whether a number had been climbing for three years.
 
 ## The parts that are not obvious
 
