@@ -1,0 +1,43 @@
+{
+  "name": "longitude-loinc-normalize",
+  "version": "0.1.0",
+  "description": "Map printed lab test names to LOINC codes and convert results between the units different labs use.",
+  "keywords": [
+    "loinc",
+    "ucum",
+    "lab",
+    "healthcare",
+    "units",
+    "conversion",
+    "fhir"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE",
+    "NOTICE.md"
+  ],
+  "scripts": {
+    "test": "node --import tsx --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "tsx": "^4.20.6",
+    "typescript": "^5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorje75/longitude-loinc-normalize.git"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
