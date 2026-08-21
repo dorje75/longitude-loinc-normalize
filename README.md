@@ -3,9 +3,7 @@
 Reads a lab result the way a lab printed it, and gives you back a LOINC code and
 a value in one consistent unit.
 
-Built for [Longitude](https://longitude.montandpaix.com/preview), where it is
-what lets one chart hold results from four different laboratories. That link is
-a live demo with a few years of made up results in it. Nothing to sign up for
+Built for [Longitude](https://longitude.montandpaix.com/preview), a web application that reads lab reports from different laboratories and charts a single test across years. That link is a live demo with a few years of made up results in it. Nothing to sign up for
 and nothing to install.
 
 ```ts
